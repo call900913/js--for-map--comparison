@@ -9,6 +9,7 @@ for (let j = 0 ; j < some.length ; j+
 
 // Given an array, a JS Array.Map consumes a function and with it visits each element.
 // whatever the function returns, the .Map returns. non mutative. 
+
 array.Map( (member) => { return member**2  } ) -> [1, 4, 9]
 
 let newArray = array.Map( (member) => { return member**2  } )
