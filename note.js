@@ -15,5 +15,4 @@ array.Map( (member) => { return member**2  } ) -> [1, 4, 9]
 let newArray = array.Map( (member) => { return member**2  } )
 
 
-
-
+console.log("Array: " + array + "\n" + "newArray: " + newArray)
