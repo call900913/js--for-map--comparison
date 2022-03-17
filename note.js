@@ -8,7 +8,7 @@ for (let j = 0 ; j < some.length ; j+
 
 
 // Given an array, a JS Array.Map consumes a function and with it visits each element.
-// whatever the function returns, the .Map returns. non mutative. 
+// whatever the function returns, the .Map inserts into the new array. So it's non mutative. 
 
 array.Map( (member) => { return member**2  } ) -> [1, 4, 9]
 
